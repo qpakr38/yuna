@@ -24,6 +24,7 @@
 <meta property="og:description" content="http://bojagicard.com/yuna611">
 
 <link rel="stylesheet" type="text/css" href="./index.thml_files/style.css">
+<link href="https://webfontworld.github.io/cookierun/CookieRun.css" rel="stylesheet">
 <link rel="stylesheet" href="./index.thml_files/jquery-ui.css" type="text/css">
 <link rel="stylesheet" href="./index.thml_files/swiper.min.css">
 <script type="text/javascript" async="" src="./index.thml_files/js"></script><script type="text/javascript" async="" src="./index.thml_files/linkid.js"></script><script async="" src="./index.thml_files/analytics.js"></script><script src="./index.thml_files/442009885997301" async=""></script><script async="" src="./index.thml_files/fbevents.js"></script><script language="javascript" type="text/javascript" src="./index.thml_files/jquery-1.7.1.min.js"></script>
@@ -98,8 +99,8 @@ var md5 = function(s) {function L(k,d) {return(k<<d)|(k>>>(32-d))}function K(G,k
 * {
     -webkit-text-size-adjust: none; /* 아이폰 폰트 자동확대축소 방지 */
 
-    
-    font-family: 'Nanum Barun Gothic';
+    font-family: 'CookieRun';
+
     font-weight: 300;
     /*font-family: 'seoulhangangregular';
     font-family: 'SeoulHangangJungL';*/
@@ -642,10 +643,7 @@ $(function(){
 
     <!-- 지도 종류 탭 -->
         <div class="mcard_button2_row map_tab_button_row">
-                <div class="mcard_map_type_btn mcard_button2 mcard_button2_on" data-cat="online">
-            지도
-        </div>
-                        <div class="mcard_map_type_btn mcard_button2" data-cat="yakdo">
+                        <div class="mcard_map_type_btn mcard_button2 mcard_button2_on" data-cat="yakdo">
             약도
         </div>
             </div>
@@ -656,36 +654,18 @@ $(function(){
     <div class="section_body map_section_body">
 
 
-        <!-- 지도 (온라인) -->
-        		<div class="map_object map_lock_wrapper" data-cat="online" data-type="online" style="min-height: px; position: relative; overflow: hidden;">
-
-            			<div class="map_lock_layer" onclick="$(this).hide()" title="지도 잠금레이어">
-				<div class="map_lock_img_wrapper">
-				    <img class="map_lock_img" src="./index.thml_files/131029_01_01.png">
-				</div>
-			</div>
-
-			<iframe id="map_frame" src="./index.thml_files/map_daum.html" scrolling="no" frameborder="0" style="display: block; overflow: hidden;" width="100%" height="400"></iframe>
-
-            <!--
-            <div style="text-align: center; font-size: 13px; position: absolute; top: 180px; width: 100%; z-index: 0;">
-                카카오 지도 서비스 점검중입니다
-            </div>
-            -->
-
             
 		</div>
 	    
 
         <!-- 보자기 약도 -->
-        		<div class="map_object" data-cat="yakdo" data-type="yakdo" style="position: relative; text-align: right;">
+        		<div class="map_object map_lock_wrapper" data-cat="yakdo" data-type="yakdo" style="position: relative; text-align: right;display: block;">
 			<img src="./index.thml_files/130401_01_06.png" class="map_img_zoom_btn">
 			<img class="map_view_img" src="./index.thml_files/com20050916143018.gif">
 			<br>
 		</div>
 	    
 
-        <!-- 업로드 약도 -->
         
 
 
@@ -1374,99 +1354,7 @@ $(function(){
 
 <!--축하 메시지 -->
 
-    <div class="section" id="guest_section">
-        <div class="section_header">
-	<div class="section_header_day day_title_wedding_invit"> wedding invitation </div>
-	<div class="section_header_day day_title_date"> date. </div>
-	<div class="section_header_day day_title_num"> 12/17</div>
-</div>
 
-
-
-<ul class="guest_title section_title">
-    <li class="section_title_img" id="guest_section_title_img">
-        &nbsp;
-    </li>
-    <li>
-        축하 메시지
-    </li>
-</ul> 
-
-
-
-<div class="section_body">
-
-    <div id="guest_reply_add_row"></div>    
-
-    <div id="guest_article_list">
-
-        <div class="guest-swiper-container" style="padding-left: 33px; padding-right: 33px;">
-            <div><!-- class="swiper-wrapper" -->
-
-                                    <div class="msg article_row guest_article" data-idx="1639592" data-croot="1639592" data-gmno="1" style="display: block">
-
-    <div class="guest_article_icon_wrapper">
-        <div class="guest_article_icon guest_article_icon1">
-            &nbsp;
-        </div>
-        <div class="guest_article_icon guest_article_icon2">
-            &nbsp;
-        </div>
-    </div>
-
-
-    <div class="msg_border_wrapper">
-
-        <div class="msg_text_block">
-
-            <div class="heart_wrap">
-                <div class="heart"></div>
-            </div>
-            <div class="msg_writer_row msg_writer_row_guest">
-                <div class="msg_name" data-idx="1639592">고지아</div>
-                <div class="msg_date">
-                    10월 13일                </div>
-            </div>
-
-            <div class="msg_text guest_msg_memo msg_memo_guest" data-area="guest" data-idx="1639592">
-                사진이 참 예쁘네요~ 부부라는 새로운 시작을 응원할게! 결혼 축하해용:)            </div>
-
-        </div>
-
-        <div class="msg_button_block msg_button_block_guest">
-            <div data-area="guest" data-idx="1639592" data-mail="kkojya89@naver.com">
-                                <div class="msg_button msg_reply_button">
-                    댓글
-                </div>
-                                            </div>
-        </div>
-
-    </div>
-
-
-    
-</div>
-                
-            </div>
-        </div>
-    
-    </div>
-
-    
-
-
-    
-        
-               
-    
-                
-         
-</div>    </div>
-
-<!-- 소식공유 -->
-<div class="section" id="share_section">
-    <script src="./index.thml_files/sns_kakao_link.js"></script>
-<script src="./index.thml_files/sns_kakaostory.js"></script>
 
 <style>
 .sns_button {
@@ -1592,76 +1480,6 @@ $(function(){
     
 }
 </style>
-
-<ul class="share_title section_title">
-    <li class="section_title_img">
-        <!--background img 이용 -->
-    </li>
-    <li>
-        소식공유
-    </li>
-</ul> 
-
-<div id="kakaotalk_preview_wrapper" class="mask_over">
-    <div id="kakaotalk_preview_inner">
-        <img id="kakaotalk_preview_close_button" src="./index.thml_files/btn_close_circle_01.png">
-        <div id="kakaotalk_preview_title">카카오톡 미리보기</div>
-        <div id="kakaotalk_preview_body">
-            <table cellspacing="0" cellpadding="0" align="center">
-                <tbody><tr valign="top">
-                    <td id="kakaotalk_preview" align="center">
-                        <img id="kakaotalk_preview_img" src="./index.thml_files/loading6.gif">
-                        <div id="kakaotalk_preview_mcard_title">승우♡유나의 결혼식에 초대합니다.</div>
-                    </td>
-                </tr>
-                <tr>
-                    <td align="center">
-                        <div id="kakao-link-btn_wrapper"><div id="kakao-link-btn">전송하기</div></div>
-                    </td>
-                </tr>
-            </tbody></table>
-        </div>
-    </div>
-</div>
-
-<!-- 카카오톡 -->
-
-<div class="share_block">
-    
-    <ul class="share_sns_row">
-        
-        <li class="share_sns_btn share_kakao_btn">
-            <!--<img src="./img/share_btn_icon_kakao.png" />-->
-            <!-- 카카오톡 -->
-        </li>
-
-        <!-- 카카오스토리 -->
-        <li class="share_sns_btn share_kakaostory_btn">
-            &nbsp;
-        </li>
-        <li class="share_sns_btn share_sns_btn_alt share_line_btn">
-            <!--<img src="./img/share_btn_icon_line.png" />-->
-            <!-- 라인 -->
-        </li>
-        <!-- 페이스북 -->
-        <!-- // 페이스북 링크등록 로봇때문에 http://DOMAIN/USERID 사용불가 -->
-        <li class="share_sns_btn share_sns_btn_alt share_facebook_btn">
-            &nbsp;
-        </li>
-        
-    </ul>    
-    
-    <div class="share_bottom">
-        <div>
-            <!-- text css before에 내용있음-->
-        </div>
-        <div class="heart">
-            <!-- css 하트모양 사용 -->    
-        </div>        
-    </div>
-    
-</div>
-
 
 <script>
 $(function() {
@@ -1877,29 +1695,6 @@ function kakaotalk_preview() {
     display: none;
 }
 </style>
-
-
-<div id="tail_menu_section" style="background-color: #21242d;">
-
-    <div class="section_wrapper" style="margin-left: 30px; margin-right: 30px;">
-        <div class="tail_fold_btn"></div>
-        <div class="tail_menu_section_fold" style="display: none;">
-            <div class="tail_menu_row" id="tail_button_config">
-            <div class="setting_fade">설정하기</div>
-                        </div>
-            <div class="tail_menu_row" id="tail_button_support">고객센터</div>
-                        <div class="tail_menu_row" id="tail_button_login">로그인 / 회원가입</div>
-            <!--<div class="tail_menu_row" id="tail_button_join">만들기</div>-->
-                    </div>
-        <div class="tail_menu_row" id="tail_company_logo" style="padding-top: 20px; padding-bottom: 20px; text-align: center;">
-    		<a target="_blank" href="https://bojagicard.com/card/doc/other/mobile/mobile_ecard.php"><img src="./index.thml_files/tail_company_logo.png" height="18"></a>
-        </div>
-    </div>
-
-</div>
-
-
-<div id="tail_block">
 
 <script>
 var s_url = location.href
@@ -3853,24 +3648,6 @@ $(window).bind('scroll', function() {
 
 </style>
 
-
-<div id="reply_add_wrapper" style="bottom: -138px; position: fixed; z-index: 5; width: 1920px; left: 0px;">
-
-    <div id="reply_add_row">
-    
-        <div style="padding-bottom: 10px;">
-            <textarea class="textarea_single_row msg_textarea_heart" id="msg_textarea" alt="1" placeholder="축하 메시지를 남겨주세요" placeholder_default="축하 메시지를 남겨주세요"></textarea>
-        </div>
-        
-        <div class="register_button" id="reply_submit_button">
-            등록하기
-        </div>
-    
-    </div>
-
-</div>
-
-<div id="reply_add_wrapper_shadow" style="background-color: rgb(33, 36, 45); height: 138px; width: 1920px; margin: auto;"></div>
 
 
 <script>
