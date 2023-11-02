@@ -47,7 +47,7 @@ a, body, ul, li, div, span, table, tbody, tr, th, td, form, input, textarea, sel
     background-color: #fafafa;
     color: #3a74e0;
 }
-/* ÇÏ´Ü ÀÛÀº ·Î°í */
+/* ï¿½Ï´ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Î°ï¿½ */
 .login_bottom_logo_wrapper {
     text-align: center;
     padding-top: 50px;
@@ -106,7 +106,7 @@ a, body, ul, li, div, span, table, tbody, tr, th, td, form, input, textarea, sel
 
 
 /*
-    ·¹ÀÌ¾Æ¿ô °øÅë
+    ï¿½ï¿½ï¿½Ì¾Æ¿ï¿½ ï¿½ï¿½ï¿½ï¿½
                     */
 input[type='text'], input[type='tel'], input[type='password'], select, input[type="number"] {
     box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
@@ -131,7 +131,7 @@ input[type='text'], input[type='tel'], input[type='password'], select, input[typ
     border-bottom: 1px solid #dddddd;
 }
 
-/*¾ÆÀÌµðºñ¹øÃ£±â ·¹ÀÌ¾Æ¿ô */
+/*ï¿½ï¿½ï¿½Ìµï¿½ï¿½ï¿½Ã£ï¿½ï¿½ ï¿½ï¿½ï¿½Ì¾Æ¿ï¿½ */
 .layout_login_help_find {
     border-top: 1px solid #eeeeee;
     border-bottom: 1px solid #eeeeee;
@@ -160,7 +160,7 @@ input[type='text'], input[type='tel'], input[type='password'], select, input[typ
     padding-bottom: 30px;
 }
 /*
-    °¡ÀÔ, ½ÅÃ»µî Æû ·¹ÀÌ¾Æ¿ô
+    ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½Ã»ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½Ì¾Æ¿ï¿½
                                 */
 .layout_text_input > ul > li, .layout_check_row > ul > li {
     box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
@@ -176,7 +176,7 @@ input[type='text'], input[type='tel'], input[type='password'], select, input[typ
 
 
 /*
-     Ã¼Å©¹Ú½º°¡ µé¾îÀÖ´Â ÇüÅÂ
+     Ã¼Å©ï¿½Ú½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½ï¿½
                                 */
 .layout_check_row > ul > li:first-child {
     width: 80%;
@@ -198,7 +198,7 @@ input[type='text'], input[type='tel'], input[type='password'], select, input[typ
 
 
 
-/* È¸¿ø°¡ÀÔ  */
+/* È¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½  */
 
 #act_hand_button_row {
     border-top: 0; line-height: 40px;
@@ -228,7 +228,7 @@ input[name=act_hand_code] {
 
 
 /*
-ÀÌ¿ë¾à°ü
+ï¿½Ì¿ï¿½ï¿½ï¿½
 */
 #term_row {
     box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
@@ -348,12 +348,12 @@ input[name=act_hand_code] {
     width: auto;
 }
 
-/* »çÁø Àü¹®º¸Á¤ ¼­ºñ½º */
+/* ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ */
 #prod_banner1_top {
     box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
     background-color: #fcf0ed;
     color: #333333;
-    font-family: 'Nanum Barun Gothic';
+    font-family: 'CookieRun';
     font-size: 12px;
     height: 153px;
     width: calc( 100% - 4px );
@@ -379,7 +379,7 @@ input[name=act_hand_code] {
     color: #333333;
     border-radius: 16px;
     cursor: pointer;
-    font-family: 'Nanum Barun Gothic';
+    font-family: 'CookieRun';
     font-size: 12px;
     font-weight: 500;
     line-height: 32px;
@@ -414,7 +414,7 @@ input[name=act_hand_code] {
 #prod_banner1_bottom_txt {
     color: #666666;
     display: inline-block;
-    font-family: 'Nanum Barun Gothic';
+    font-family: 'CookieRun';
     font-size: 13px;
     height: 15px;
     line-height: 15px;
@@ -461,7 +461,7 @@ input[name=act_hand_code] {
 
 
 /*
-     ¿À½Ã´Â±æ
+     ï¿½ï¿½ï¿½Ã´Â±ï¿½
                 */
 #map_memo {
     box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
@@ -478,7 +478,7 @@ input[name=act_hand_code] {
     font-size:14px!important;font-weight:bold;margin-left:15px;color:#fff;
 }
 
-/* ¿¹½ÄÀå ÁöµµÈ®ÀÎ */
+/* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½È®ï¿½ï¿½ */
 
 .map_confirm_title_wrapper {
     height: 43px;
@@ -564,7 +564,7 @@ input[name=act_hand_code] {
     text-align: center;
 }
 
-/* °èÁÂ */
+/* ï¿½ï¿½ï¿½ï¿½ */
 .bank_pop_btns {
     display:block!important;
 }
