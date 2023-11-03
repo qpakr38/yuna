@@ -27,10 +27,10 @@
 }
 
 .section {
-    background-color: #343434;
+    background-color: #043F58;
 }
 .section:nth-child(odd) {
-     background-color: #343434;
+     background-color: #043F58;
 }
 
 .section_body_radius {
@@ -108,7 +108,7 @@
 }
 /* BŸ�� ������ */
 #photo_view_wrapper {
-   background-color: #343434;
+   background-color: #043F58;
 }
 /* �����̵� ����Ÿ��Ʋ */
 .photo_view_sub_title {
@@ -132,7 +132,7 @@
 }
 /* tab menu button */
 .mcard_button2 {
-    background-color: #343434;
+    background-color: #043F58;
     color: #7f838c;
 }
 .mcard_button2_on {
